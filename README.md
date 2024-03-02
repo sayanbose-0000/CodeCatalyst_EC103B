@@ -4,7 +4,7 @@
 
 ## .MyGym 🤞
 
-It is a E-commerce made with HTML CSS 😊
+It is a Gym Website made with HTML CSS 😊
 
 
 ## How to setup it on your device ?? 🤔
