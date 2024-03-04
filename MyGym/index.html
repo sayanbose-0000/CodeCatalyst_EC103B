@@ -5,43 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness and gym website</title>
+    <title>Be Fit</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./images/favicoon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
 <body>
-
-    <header class="header">
-
-        <a href="#" class="logo"> <span>BE</span>FIT </a>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#features">features</a>
-            <a href="#pricing">pricing</a>
-            <a href="#trainers">trainers</a>
-            <a href="#blogs">blogs</a>
-        </nav>
-
-    </header>
-
+    <!-- NAVBAR SECTION -->
+    <section>
+        <header class="header">
+            <img src="./images/logo.png" alt="">
+            <nav class="navbar">
+                <ul class="nav-items">
+                  <a href="#home"><li>Home</li></a>
+                  <a href="#Feature"><li>Features</li></a>
+                  <a href="#money"><li>Pricing</li></a>
+                  <a href="#Trainer"><li>Trainers</li></a>
+                  <a href="#home"><li>Blogs</li></a>
+                  <a href="#home"><li>About</li></a>
+                </ul>
+            </nav>
+            <div class="ham-menu">
+                <img src="./images/ham.png" class="nav-icon" name="open-ham" alt="">
+                <img src="./images/close.png" class="nav-icon" name="close-ham" alt="">
+            </div>
+        </header>
+    </section>
+    <!-- HOME SECTION -->
     <section class="home" id="home">
 
         <div class="swiper home-slider">
 
             <div class="swiper-wrapper">
-
+                <div class="slidebackground">&nbsp;</div>
                 <div class="swiper-slide slide" style="background: url(images/home-bg-1.jpg) no-repeat ;">
                     <div class="content">
                         <span>be strong, be fit</span>
                         <h3>Make yourself stronger than your excuses.</h3>
                         <a href="#" class="btn">get started</a>
                     </div>
+
+                    <!-- <div class="arrows">
+                        <img src="./images/arrow-left-circle.svg" class="leftarrow">
+                        <img src="./images/arrow-right-circle.svg" class="rightarrow">
+                    </div> -->
                 </div>
 
             </div>
@@ -52,7 +62,221 @@
 
     </section>
 
+    <section>
+        <div class="provide-container">
+            <div class="one">
+                <div class="one-text">
+                    <h1>WELCOME TO OUR GYM</h1>
+                    <p>
+                        Step into our inclusive gym, where innovation meets motivation. Explore top-tier equipment, dynamic group classes, and personalized training plans.</p><p> Join a supportive community, fuel your fitness journey, and unlock your full potential. Elevate your well-being and embrace a healthier, stronger lifestyle with us. Your transformation begins now!</p>
+                </div>
+                <div class="one-pic">
+                    <img src="./images/pushupman.png" alt="">
+                </div>
+            </div>
+            <div class="two">
+                <div class="two-text">
+                    <h1>WE ARE A COMMUNITY</h1>
+                    <p>
+                      We're more than a fitness center; we're a supportive family dedicated to your well-being. Enjoy state-of-the-art facilities, engaging classes, and personalized fitness plans. Connect with like-minded individuals, share the journey, and thrive together. Your fitness goals are our shared mission. Join us in fostering a healthier community!</p>
+                </div>
+                <div class="two-pic">
+                    <img src="./images/curl.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- FEATURED SECTION -->
+    <section id="Feature">
+      <h1 class="kl">Our Features</h1>
+      <div class="feat">
+        <div class="featu feat1" data-aos="slide-up">
+          <img src="./images/feat4.png" alt="">
+          <h1>Yoga</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, rem tenetur. Tempora natus expedita esse eveniet </p>
+        </div>
+        <div class="featu feat2" data-aos="slide-up">
+          <img src="./images/feat2.png" alt="">
+          <h1>Zumba</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, rem tenetur. Tempora natus expedita esse eveniet </p>
+        </div>
+        <div class="featu feat3" data-aos="slide-up">
+          <img src="./images/feat3.png" alt="">
+          <h1>Body Building</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, rem tenetur. Tempora natus expedita esse eveniet </p>
+        </div>
+        <div class="featu feat4" data-aos="slide-up">
+          <img src="./images/feat1.png" alt="">
+          <h1>Weight Lifting</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, rem tenetur. Tempora natus expedita esse eveniet </p>
+        </div>
+      </div>
+
+
+        <div class="features">
+            <h1>Our Equipments</h1>
+        
+            <div>
+        
+              <div class="equipcontain" data-aos="fade-left">
+                <div class="circle" id="circle1"></div>
+                <img src="./images/dumbell.png" alt="">
+              </div>
+              
+              <div class="equipcontain" data-aos="fade-left">
+                <div class="circle" id="circle2"></div>
+                <img src="./images/treadmill.png" alt="">
+              </div>
+        
+              <div class="equipcontain" data-aos="fade-right">
+                <div class="circle" id="circle3"></div>
+                <img src="./images/stationarybike.png" alt="">
+              </div>
+        
+              <div class="equipcontain" data-aos="fade-right">
+                <div class="circle" id="circle4"></div>
+                <img src="./images/weightmachine.png" alt="">
+              </div>
+        
+            </div>
+            <h3>We are equipped with top class gym eqipments</h3>
+          </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="money">
+      <div class="pricing">
+  
+        <h1>Find the package that's right for you</h1>
+        <div class="price_container">
+    
+          <div class="price" id="price1" data-aos="fade-right">
+            <div class="innerprice" id="innerprice1">
+              <h3>NoviceGuy Pack</h3>
+              <h1>₹ 999/mo</h1>
+                  <ul>
+                    <li>3 days/week</li>
+                    <li>General Trainer</li>
+                    <li>Yoga Room</li>
+                    <li>Cardio Room</li>
+                  </ul>
+                  <div class="button_container">
+                    <button>Buy</button>
+                  </div>
+            </div>
+          </div>
+    
+          <div class="price" id="price2" data-aos="fade-in">
+            <div class="innerprice" id="innerprice2">
+              <h3>GymBro Pack</h3>
+              <h1>₹ 1999/mo</h1>
+                  <ul>
+                    <li>4 days/week</li>
+                    <li>General Trainer</li>
+                    <li>Yoga Room</li>
+                    <li>Cardio Room</li>
+                  </ul>
+                <div class="button_container">
+                  <button>Buy</button>
+                </div>
+            </div>
+          </div>
+          <div class="price" id="price3" data-aos="fade-left">
+            <div class="innerprice" id="innerprice3">
+              <h3>Bodybuilder Pack</h3>
+              <h1>₹ 2499/mo</h1>
+                  <ul>
+                    <li>6 days/week</li>
+                    <li>Personal Trainer</li>
+                    <li>Yoga Room</li>
+                    <li>Cardio Access</li>
+                  </ul>
+                  <div class="button_container">
+                    <button>Buy</button>
+                  </div>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+
+
+    <!-- TRAINER SECTION -->
+    <section id="Trainer">
+        <div class="trainer">
+            <h1 class="heading" data-aos="fade-in"> Our Trainers </h1>
+            <div class="cardcontainer">
+        
+              <div class="card">
+                <div class="front" style="background-image: url('./images/tr1.png');"> </div>
+                <div class="back"> TRAINER DETAILS: </div>
+              </div>
+              <div class="card">
+                <div class="front" style="background-image: url('./images/tr2.png');"> </div>
+                <div class="back"> TRAINER DETAILS:</div>
+              </div>
+              <div class="card">
+                <div class="front" style="background-image: url('./images/tr3.png');"> </div>
+                <div class="back"> TRAINER DETAILS: </div>
+              </div>
+              <div class="card">
+                <div class="front" style="background-image: url('./images/tr4.png');"> </div>
+                <div class="back"> TRAINER DETAILS: </div>
+              </div>
+              <div class="card">
+                <div class="front" style="background-image: url('./images/tr5.png');"> </div>
+                <div class="back"> TRAINER DETAILS: </div>
+              </div>
+              <div class="card">
+                <div class="front" style="background-image: url('./images/tr6.png');"> </div>
+                <div class="back"> TRAINER DETAILS: </div>
+              </div>
+        
+            </div>
+          </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="container">
+        <img src="./images/logo.png" class="image">
+        <div class="text">
+          <div class="follow">
+            <p>Follow us on</p>
+            <ul>
+              <li><a href="https://www.x.com" target="_blank"><img src="./images/twitter.svg" alt=""></a></li>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.svg" alt=""></a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="./images/instagram.svg" alt=""></a></li>
+            </ul>
+          </div>
+          <div class="support">
+            <p>Support</p>
+            <ul>
+              <li>About</li>
+              <li>Contacts</li>
+              <li>Terms & Conditions</li>
+            </ul>
+          </div>
+          <div class="credits">
+            <ul>
+              <p>Credits</p>
+              <li>Sayan Bose</li>
+              <li>Sangneel Deb</li>
+              <li>Soham Ghosh</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

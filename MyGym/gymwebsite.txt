@@ -1,7 +1,0 @@
-[] hamburger menu
-[] pricing plans
-[] trainers
-[] features
-[] get started button
-[] befit logo
-[] scrollbar
