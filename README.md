@@ -69,9 +69,11 @@ The project structure is organized as follows:
 ## Preview
 
 
-![Screenshot (351)](https://github.com/lord-cyclone100/toogoodto/assets/121711381/559ac61a-bcf8-4c0d-b391-9d815dcc3fa4)
-![Screenshot (350)](https://github.com/lord-cyclone100/toogoodto/assets/121711381/3cc8c1a1-7ad3-4e00-878d-6479ab4618df)
-![Screenshot (349)](https://github.com/lord-cyclone100/toogoodto/assets/121711381/da155980-1f93-4f64-b31c-99b1bbdc5ed1)
+![Screenshot 2024-03-04 160303](https://github.com/lord-cyclone100/CodeCatalyst_EC103B/assets/121711381/56131a48-7032-4fdf-97f7-a8d49c331d0e)
+![Screenshot 2024-03-04 160321](https://github.com/lord-cyclone100/CodeCatalyst_EC103B/assets/121711381/bc6dec47-cc86-4402-a71f-e3f233faad80)
+![Screenshot 2024-03-04 160347](https://github.com/lord-cyclone100/CodeCatalyst_EC103B/assets/121711381/1dd23ed9-5006-402e-9c23-8d1a5845cbea)
+![Screenshot 2024-03-04 160246](https://github.com/lord-cyclone100/CodeCatalyst_EC103B/assets/121711381/a0bbe2c0-339e-4dbc-a2b6-7aa4892e8388)
+
 
 <br>
 <h3 align="left"><img src="https://raw.githubusercontent.com/dsnehasish74/dsnehasish74/main/techstack.gif" align="center"
